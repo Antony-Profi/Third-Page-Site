@@ -65,7 +65,7 @@
     right: 0px;
     bottom: 0px;
     z-index: 0;
-    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,7 +94,7 @@
 }
 
 #process_work_being_performed .text_centered li::before {
-    content: url("https://antony-profi.github.io/First-Page-Site/11.png");
+    content: url("https://antony-profi.github.io/Third-Page-Site/check_mark.png");
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -131,7 +131,7 @@
     right: 0px;
     bottom: 38px;
     z-index: 0;
-    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,7 +154,7 @@
 }
 
 #process_work_being_performed .super-text_centered li::before {
-    content: url("https://antony-profi.github.io/First-Page-Site/11.png");
+    content: url("https://antony-profi.github.io/Third-Page-Site/check_mark.png");
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -191,7 +191,7 @@
     right: 0px;
     bottom: 38px;
     z-index: 0;
-    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,7 +215,7 @@
 }
 
 #process_work_being_performed .magic-text_centered li::before {
-    content: url("https://antony-profi.github.io/First-Page-Site/11.png");
+    content: url("https://antony-profi.github.io/Third-Page-Site/check_mark.png");
     vertical-align: middle;
     margin-right: 10px;
 }
@@ -261,7 +261,7 @@
     right: 0px;
     bottom: 41px;
     z-index: 0;
-    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -307,24 +307,31 @@
     #process_work_being_performed .p1 {
         padding: 20px 20px;
     }
+
     #process_work_being_performed .title {
         font-size: 32px;
     }
+
     #process_work_being_performed .p1 > .image-centered img {
         max-width: 100%;
     }
+
     #process_work_being_performed .p2 {
         padding: 20px 20px;
     }
+
     #process_work_being_performed .p2 > .centered_all .title_under_picture::after {
         bottom: 65px;
     }
+
     #process_work_being_performed .p2 > .centered_all img {
         max-width: 100%;
     }
+
     #process_work_being_performed .p3 {
         padding: 20px 20px;
     }
+
     #process_work_being_performed .p3 > .centered_title .title_under_picture::after {
         bottom: 65px;
     }
@@ -332,13 +339,39 @@
     #process_work_being_performed .p3 > .centered_title img {
         max-width: 100%;
     }
+
     #process_work_being_performed .p4 {
         padding: 20px 20px;
     }
+
     #process_work_being_performed .p4 > .centered_title_super .title::after {
         bottom: 73px;
     }
+
     #process_work_being_performed .p4 > .centered_title img {
         max-width: 46%;
+    }
+
+    #process_work_being_performed .p4 .contacts {
+        background: #f1f1f1;
+        display: flex;
+        gap: 15px;
+        margin: 70px auto;
+        width: 88%;
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+    }
+
+    #process_work_being_performed .p4 .contacts_list {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #process_work_being_performed .p4 .contacts img {
+        width: 25%;
+        object-fit: contain;
     }
 }
