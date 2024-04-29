@@ -97,6 +97,7 @@
     content: url("https://antony-profi.github.io/Third-Page-Site/check_mark.png");
     vertical-align: middle;
     margin-right: 10px;
+    float: initial !important;
 }
 
 #process_work_being_performed .images-style {
@@ -219,6 +220,7 @@
     content: url("https://antony-profi.github.io/Third-Page-Site/check_mark.png");
     vertical-align: middle;
     margin-right: 10px;
+    float: initial !important;
 }
 
 #process_work_being_performed .cool-images-style {
@@ -303,6 +305,7 @@
     color: #FFA500;
     font-size: 21px;
 }
+
 @media screen and (max-width: 800px) {
     #process_work_being_performed .p1 {
         padding: 20px 0;
