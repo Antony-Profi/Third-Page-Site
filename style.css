@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#process_work_being_performed {
+    font-family: Montserrat, sans-serif;
+}
+
+#process_work_being_performed .title {
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+#process_work_being_performed .text {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#process_work_being_performed .p1 {
+    padding: 30px 0;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#process_work_being_performed .centered {
+    text-align: center;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#process_work_being_performed .title > span {
+    position: relative;
+    z-index: 2;
+}
+
+#process_work_being_performed .title > span::before {
+    content: "";
+    display: block;
+    background: #FFA500;
+    width: calc(100% + 6px);
+    height: 15px;
+    z-index: -1;
+    position: absolute;
+    bottom: 6px;
+    left: -3px;
+}
+
+#process_work_being_performed .p1 > .centered .title {
+    position: relative;
+    width: 90%;
+    border-bottom: 1px solid silver;
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+
+#process_work_being_performed .p1 > .centered .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 50px;
+}
+
+#process_work_being_performed .p1 > .image-centered .title_under_picture {
+    text-align: center;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#process_work_being_performed .p1 > .image-centered img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#process_work_being_performed .text_centered {
+    margin: 60px auto 60px;
+    padding: 0 30px;
+    list-style-type: none;
+    width: fit-content;
+}
+
+#process_work_being_performed .text_centered li::before {
+    content: url("https://antony-profi.github.io/First-Page-Site/11.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#process_work_being_performed .images-style {
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+#process_work_being_performed .p2 {
+    background: #f2efe7;
+    padding: 30px 0;
+}
+
+#process_work_being_performed .centered_all {
+    text-align: center;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#process_work_being_performed .p2 > .centered_all .title_under_picture {
+    position: relative;
+    width: 90%;
+    border-top: 1px solid silver;
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+
+#process_work_being_performed .p2 > .centered_all .title_under_picture::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 38px;
+    z-index: 0;
+    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 50px;
+}
+
+#process_work_being_performed .p2 > .centered_all img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#process_work_being_performed .super-text_centered {
+    margin: 60px auto 60px;
+    padding: 0 30px;
+    list-style-type: none;
+    width: fit-content;
+}
+
+#process_work_being_performed .super-text_centered li::before {
+    content: url("https://antony-profi.github.io/First-Page-Site/11.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#process_work_being_performed .super-images-style {
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+#process_work_being_performed .p3 {
+    background: #e9e0b9ee;
+    padding: 30px 0;
+}
+
+#process_work_being_performed .centered_title {
+    text-align: center;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#process_work_being_performed .p3 > .centered_title .title_under_picture {
+    position: relative;
+    width: 90%;
+    border-top: 1px solid silver;
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+
+#process_work_being_performed .p3 > .centered_title .title_under_picture::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 38px;
+    z-index: 0;
+    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 50px;
+}
+
+#process_work_being_performed .p3 > .centered_title img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#process_work_being_performed .magic-text_centered {
+    margin: 60px auto 60px;
+    padding: 0 30px;
+    list-style-type: none;
+    width: fit-content;
+}
+
+#process_work_being_performed .magic-text_centered li::before {
+    content: url("https://antony-profi.github.io/First-Page-Site/11.png");
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#process_work_being_performed .cool-images-style {
+    padding-left: 40px;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+#process_work_being_performed .p4 {
+    padding: 30px 0;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#process_work_being_performed .centered_title_super {
+    text-align: center;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#process_work_being_performed .p4 > .centered_title_super .title {
+    position: relative;
+    width: 90%;
+    border-top: 1px solid silver;
+    margin: 30px auto;
+    padding-bottom: 10px;
+}
+
+#process_work_being_performed .p4 > .centered_title_super .title {
+    text-align: center;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#process_work_being_performed .p4 > .centered_title_super .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0px;
+    bottom: 41px;
+    z-index: 0;
+    background: url(https://antony-profi.github.io/First-Page-Site/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 50px;
+}
+
+#process_work_being_performed .p4 > .centered_title_super img {
+    max-width: 40%;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 10px 15px 0
+}
+
+#process_work_being_performed .p4 .contacts {
+    background: #f1f1f1;
+    display: flex;
+    gap: 15px;
+    margin: 70px auto;
+    width: 78%;
+    height: 200px;
+    padding: 15px 20px;
+}
+
+#process_work_being_performed .p4 .contacts_list {
+    display: flex;
+    gap: 160px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#process_work_being_performed .p4 .contacts img {
+    width: 19%;
+    object-fit: contain;
+}
+
+#process_work_being_performed .p4 .contacts_list p {
+    color: #FFA500;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 550px) {
+    #process_work_being_performed .p1 {
+        padding: 20px 20px;
+    }
+    #process_work_being_performed .title {
+        font-size: 32px;
+    }
+    #process_work_being_performed .p1 > .image-centered img {
+        max-width: 100%;
+    }
+    #process_work_being_performed .p2 {
+        padding: 20px 20px;
+    }
+    #process_work_being_performed .p2 > .centered_all .title_under_picture::after {
+        bottom: 65px;
+    }
+    #process_work_being_performed .p2 > .centered_all img {
+        max-width: 100%;
+    }
+    #process_work_being_performed .p3 {
+        padding: 20px 20px;
+    }
+    #process_work_being_performed .p3 > .centered_title .title_under_picture::after {
+        bottom: 65px;
+    }
+    
+    #process_work_being_performed .p3 > .centered_title img {
+        max-width: 100%;
+    }
+    #process_work_being_performed .p4 {
+        padding: 20px 20px;
+    }
+    #process_work_being_performed .p4 > .centered_title_super .title::after {
+        bottom: 73px;
+    }
+    #process_work_being_performed .p4 > .centered_title img {
+        max-width: 46%;
+    }
+}
