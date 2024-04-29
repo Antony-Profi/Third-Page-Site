@@ -157,6 +157,7 @@
     content: url("https://antony-profi.github.io/Third-Page-Site/check_mark.png");
     vertical-align: middle;
     margin-right: 10px;
+    float: initial !important;
 }
 
 #process_work_being_performed .super-images-style {
@@ -334,6 +335,29 @@
     #process_work_being_performed .p4 > .centered_title_super img {
         max-width: 46%;
     }
+
+    #process_work_being_performed .p4 .contacts {
+        background: #f1f1f1;
+        display: flex;
+        gap: 15px;
+        margin: 70px auto;
+        width: 88%;
+        height: auto;
+        padding: 15px 20px;
+        flex-direction: column;
+    }
+
+    #process_work_being_performed .p4 .contacts_list {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #process_work_being_performed .p4 .contacts img {
+        width: 25%;
+        object-fit: contain;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -354,7 +378,7 @@
     }
 
     #process_work_being_performed .p2 > .centered_all .title_under_picture::after {
-        bottom: 65px;
+        bottom: 32px;
     }
 
     #process_work_being_performed .p2 > .centered_all img {
@@ -366,7 +390,7 @@
     }
 
     #process_work_being_performed .p3 > .centered_title .title_under_picture::after {
-        bottom: 65px;
+        bottom: 54px;
     }
     
     #process_work_being_performed .p3 > .centered_title img {
