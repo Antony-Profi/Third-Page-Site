@@ -88,7 +88,7 @@
 
 #process_work_being_performed .text_centered {
     margin: 60px auto 60px;
-    padding: 0 30px;
+    padding: 0 10px;
     list-style-type: none;
     width: fit-content;
 }
@@ -120,7 +120,7 @@
 #process_work_being_performed .p2 > .centered_all .title_under_picture {
     position: relative;
     width: 90%;
-    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
     margin: 30px auto;
     padding-bottom: 10px;
 }
@@ -129,8 +129,8 @@
     content: "";
     display: block;
     position: absolute;
-    right: 0px;
-    bottom: 38px;
+    right: 0;
+    bottom: 0;
     z-index: 0;
     background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
@@ -162,13 +162,12 @@
 }
 
 #process_work_being_performed .super-images-style {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 10px;
     margin-bottom: 40px;
 }
 
 #process_work_being_performed .p3 {
-    background: #e9e0b9ee;
     padding: 30px 0;
 }
 
@@ -181,7 +180,7 @@
 #process_work_being_performed .p3 > .centered_title .title_under_picture {
     position: relative;
     width: 90%;
-    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
     margin: 30px auto;
     padding-bottom: 10px;
 }
@@ -190,8 +189,8 @@
     content: "";
     display: block;
     position: absolute;
-    right: 0px;
-    bottom: 38px;
+    right: 0;
+    bottom: 0;
     z-index: 0;
     background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
@@ -232,6 +231,7 @@
 #process_work_being_performed .p4 {
     padding: 30px 0;
     max-width: 100%;
+    background: #f2efe7;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -246,7 +246,7 @@
 #process_work_being_performed .p4 > .centered_title_super .title {
     position: relative;
     width: 90%;
-    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
     margin: 30px auto;
     padding-bottom: 10px;
 }
@@ -261,8 +261,8 @@
     content: "";
     display: block;
     position: absolute;
-    right: 0px;
-    bottom: 41px;
+    right: 0;
+    bottom: 0;
     z-index: 0;
     background: url("https://antony-profi.github.io/Third-Page-Site/semicircle.png");
     background-size: contain;
@@ -291,7 +291,7 @@
 
 #process_work_being_performed .p4 .contacts_list {
     display: flex;
-    gap: 160px;
+    gap: 97px;
     justify-content: space-between;
     margin-bottom: 40px;
 }
@@ -312,7 +312,7 @@
     }
 
     #process_work_being_performed .p1 > .image-centered img {
-        max-width: 64%;
+        max-width: 75%;
     }
 
     #process_work_being_performed .p2 {
@@ -320,7 +320,7 @@
     }
 
     #process_work_being_performed .p2 > .centered_all img {
-        max-width: 64%;
+        max-width: 75%;
     }
 
     #process_work_being_performed .p3 {
@@ -328,7 +328,7 @@
     }
 
     #process_work_being_performed .p3 > .centered_title img {
-        max-width: 64%;
+        max-width: 75%;
     }
 
     #process_work_being_performed .p4 {
@@ -336,7 +336,7 @@
     }
 
     #process_work_being_performed .p4 > .centered_title_super img {
-        max-width: 46%;
+        max-width: 75%;
     }
 
     #process_work_being_performed .p4 .contacts {
@@ -344,10 +344,15 @@
         display: flex;
         gap: 15px;
         margin: 70px auto;
-        width: 88%;
+        width: 90%;
         height: auto;
         padding: 15px 20px;
         flex-direction: column;
+    }
+
+    #process_work_being_performed .p4 .contacts img {
+        width: 25%;
+        object-fit: contain;
     }
 
     #process_work_being_performed .p4 .contacts_list {
@@ -357,9 +362,8 @@
         flex-direction: column;
     }
 
-    #process_work_being_performed .p4 .contacts img {
-        width: 25%;
-        object-fit: contain;
+    #process_work_being_performed .p4 .contacts_list p {
+        font-size: 19px;
     }
 }
 
@@ -372,6 +376,10 @@
         font-size: 32px;
     }
 
+    #process_work_being_performed .text {
+        font-size: 15px;
+    }
+
     #process_work_being_performed .p1 > .image-centered img {
         max-width: 100%;
     }
@@ -380,12 +388,22 @@
         padding: 20px 20px;
     }
 
+    #process_work_being_performed .p2 > .centered_all .title_under_picture {
+        width: 100%;
+    }
+
     #process_work_being_performed .p2 > .centered_all .title_under_picture::after {
-        bottom: 32px;
+        bottom: -3px;
+        width: 35px;
+        right: 1px;
     }
 
     #process_work_being_performed .p2 > .centered_all img {
         max-width: 100%;
+    }
+
+    #process_work_being_performed .super-images-style {
+        padding-left: 0;
     }
 
     #process_work_being_performed .p3 {
@@ -393,23 +411,33 @@
     }
 
     #process_work_being_performed .p3 > .centered_title .title_under_picture::after {
-        bottom: 54px;
+        bottom: 0;
     }
     
     #process_work_being_performed .p3 > .centered_title img {
         max-width: 100%;
     }
 
+    #process_work_being_performed .cool-images-style {
+        padding-left: 0;
+    }
+
     #process_work_being_performed .p4 {
         padding: 20px 20px;
     }
 
+    #process_work_being_performed .p4 > .centered_title_super .title {
+        width: 102%;
+    }
+
     #process_work_being_performed .p4 > .centered_title_super .title::after {
-        bottom: 73px;
+        bottom: -3px;
+        right: -2px;
+        width: 35px;
     }
 
     #process_work_being_performed .p4 > .centered_title_super img {
-        max-width: 47%;
+        max-width: 100%;
     }
 
     #process_work_being_performed .p4 .contacts {
@@ -435,6 +463,3 @@
         object-fit: contain;
     }
 }
-.Block__ui_padding-top_s--yjxcw {
-    z-index: 100;
-};
